@@ -1,0 +1,29 @@
+body {
+    backgroud-color: #fdfdfd;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 400px;
+    align-items: center;
+}
+
+.requestForm {
+    display: flex;
+    flex-direction: row; 
+}
+
+.urlInput {
+    padding: 5px;
+    font-size: 1.5em
+}
+
+.sendButton {
+    padding: 5px;
+    font-size: 1.5em;
+    background-color: #4CBB17;
+    border: 2px #ddd;
+    border-radius: 5px;
+    color: #eee;
+}
