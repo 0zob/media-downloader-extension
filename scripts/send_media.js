@@ -13,9 +13,11 @@ const sendDownloadRequest = async (url)=>{
         body: JSON.stringify(bodyRequest)
     })
 }
-const sendMedia = () => {
+const sendMedia = (event) => {
+    event.preventDefault()
     const urlInput = document.getElementById("urlInput")
     const mediaUrl = urlInput.value
+    urlInput.value = ""
     sendDownloadRequest(mediaUrl)
 }
 document.getElementById("sendButton").addEventListener("click", sendMedia)
