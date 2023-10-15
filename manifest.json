@@ -1,0 +1,10 @@
+{
+  "name": "Media Download",
+  "description": "A extension for download media from url",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "images/send_media.png"
+  }
+}
